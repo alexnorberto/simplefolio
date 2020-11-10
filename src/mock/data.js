@@ -31,6 +31,25 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'p_same.jpg',
+    title: 'SAME',
+    info:
+      'Webapp desenvolvido para o Serviço de Arquivo Médico e Estatística do HRDML como teste de integração de interface para o google sheets usando React, HTML+CSS+JS e tentativa de testes e hospedagem com firebase.',
+    info2: '',
+    url: 'https://same-hrdml.web.app',
+    repo: 'https://github.com/alexnorberto/same-hrdml', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'p_fashion.jpg',
+    title: 'Fashion',
+    info: 'Página básica desenvolvida utilizando HTML+CSS para o curso de desenvolvedor front-end',
+    info2: '',
+    url: 'https://alexnorberto.github.io/fashion/',
+    repo: 'https://github.com/alexnorberto/fashion', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'p_flexblog.jpg',
     title: 'FlexBlog',
     info: 'Página desenvolvida utilizando HTML+CSS+JS para o curso de desenvolvedor front-end',
@@ -40,27 +59,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'p_fashion.jpg',
-    title: 'Fashion',
-    info: 'Página desenvolvida utilizando HTML+CSS+JS para o curso de desenvolvedor front-end',
-    info2: '',
-    url: 'https://alexnorberto.github.io/fashion/',
-    repo: 'https://github.com/alexnorberto/fashion', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'p_infusion.jpg',
-    title: 'Infusion',
-    info: 'Página desenvolvida utilizando HTML+CSS+JS para o curso de desenvolvedor front-end',
-    info2: '',
-    url: 'https://alexnorberto.github.io/infusion/',
-    repo: 'https://github.com/alexnorberto/infusion', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'p_strata.jpg',
     title: 'Strata',
-    info: 'Página desenvolvida utilizando HTML+CSS+JS para o curso de desenvolvedor front-end',
+    info:
+      'Página responsiva desenvolvida utilizando HTML+CSS+JS para o curso de desenvolvedor front-end',
     info2: '',
     url: 'https://alexnorberto.github.io/strata/',
     repo: 'https://github.com/alexnorberto/strata', // if no repo, the button will not show up
@@ -73,6 +75,16 @@ export const projectsData = [
     info2: '',
     url: 'https://alexnorberto.github.io/hostels/',
     repo: 'https://github.com/alexnorberto/hostels', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'p_infusion.jpg',
+    title: 'Infusion',
+    info:
+      'Página totalmente responsiva desenvolvida utilizando HTML+CSS+JS, para o curso de desenvolvedor front-end',
+    info2: '',
+    url: 'https://alexnorberto.github.io/infusion/',
+    repo: 'https://github.com/alexnorberto/infusion', // if no repo, the button will not show up
   },
 ];
 
