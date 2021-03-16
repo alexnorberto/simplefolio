@@ -9,8 +9,8 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Olá! Eu sou',
-  name: 'Alex Norberto',
+  title: 'Olá! Meu nome é',
+  name: 'Alexsandro Norberto',
   subtitle: 'e sou um desenvolvedor front-end.',
   cta: '',
 };
@@ -23,12 +23,32 @@ export const aboutData = {
   paragraphTwo:
     'Estou aberto a novas oportunidades e sempre disposto a aprender novas tecnologias para melhorar minhas habilidades afim de desenvolver melhores aplicações.',
   paragraphThree:
-    'Tive experiência com JAVA e C++ durante o período acadêmico. Atualmente com interesse em estudar tecnologias como Angular e Node JS.',
+    'Tive experiência com JAVA e C++ durante o período acadêmico. Atualmente com interesse em estudar tecnologias para desenvolvimento web como Angular e Node JS.',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'p_task.jpg',
+    title: 'TASK MANAGER',
+    info:
+      'CRUD Webapp desenvolvido para testar habilidades com Angular 10 e manipulação de dados; utilizado localStorage como backend para fins de teste.',
+    info2: '',
+    url: 'https://alexnorberto.github.io/task-manager/',
+    repo: 'https://github.com/alexnorberto/task-manager', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'p_kanban.jpg',
+    title: 'KANBAN',
+    info:
+      'CRUD WebApp de um Kanban simples, utilizando a ferramenta de drag and drop disponibilizada pelo Angular Material.',
+    info2: '',
+    url: 'https://alexnorberto.github.io/kanban-fire/',
+    repo: 'https://github.com/alexnorberto/kanban-fire', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'p_same.jpg',
