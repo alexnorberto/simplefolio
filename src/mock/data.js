@@ -51,6 +51,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'p_login.jpg',
+    title: 'PROJECT LOGIN',
+    info:
+      'Teste de interface e navegação utilizando Angular, baseada em imagens fornecidas como referência.',
+    info2: '',
+    url: 'https://alexnorberto.github.io/project-login/',
+    repo: 'https://github.com/alexnorberto/project-login', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'p_same.jpg',
     title: 'SAME',
     info:
